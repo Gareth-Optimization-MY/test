@@ -6,7 +6,7 @@ api_version = "2024-10"
 type = "ui_extension"
 name = "pos-ui"
 
-handle = "Price Rounding Feature"
+handle = "Price-Rounding-Feature"
 description = "To round the price"
 
 # Controls where in POS your extension will be injected,
@@ -18,11 +18,3 @@ target = "pos.home.tile.render"
 [[extensions.targeting]]
 module = "./src/Modal.jsx"
 target = "pos.home.modal.render"
-
-# [[extensions.targeting]]
-# module = "./src/PostPurchaseAction.jsx"
-# target = "pos.purchase.post.action.menu-item.render"
-
-# [[extensions.targeting]]
-# module = "./src/PostPurchaseActionModal.jsx"
-# target = "pos.purchase.post.action.render"

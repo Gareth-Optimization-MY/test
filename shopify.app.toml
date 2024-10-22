@@ -3,12 +3,13 @@
 client_id = "b384d5b151328d299091200aa4795111"
 name = "price-rounding-extension-tet"
 handle = "price-rounding-extension-tet"
-application_url = "https://und-offline-survey-wireless.trycloudflare.com"
+application_url = "https://test-s4hk.onrender.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
 dev_store_url = "test-store-gareth.myshopify.com"
+include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
@@ -16,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://und-offline-survey-wireless.trycloudflare.com/auth/callback",
-  "https://und-offline-survey-wireless.trycloudflare.com/auth/shopify/callback",
-  "https://und-offline-survey-wireless.trycloudflare.com/api/auth/callback"
+  "https://test-s4hk.onrender.com/auth/callback",
+  "https://test-s4hk.onrender.com/auth/shopify/callback",
+  "https://test-s4hk.onrender.com/api/auth/callback"
 ]
 
 [webhooks]
