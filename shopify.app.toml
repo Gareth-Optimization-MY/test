@@ -42,4 +42,4 @@ api_version = "2024-10"
   uri = "/webhooks/app/uninstalled"
 
 [pos]
-embedded = false
+embedded = true
